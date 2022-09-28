@@ -1,6 +1,29 @@
 /* Rubrik */
+#rubrikruta {
+    width: 600px;
+    height: 200px;
+    background-color: beige;
+}
+
+.rubrik {
+    color: rgb(140, 79, 79);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    /* osäker*/
+    padding-top: 50px;
+    margin: 0;
+}
+
+.style {
+    font-style: italic;
+    display: inline-block;
+}
 
 /* Navigation */
+.länkar {
+    display: inline-block;
+    text-decoration: underline dotted;
+}
 
 /* Hundrubrik och bild */
 
