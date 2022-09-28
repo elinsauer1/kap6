@@ -3,6 +3,7 @@
     width: 600px;
     height: 200px;
     background-color: beige;
+    border-radius: 4px;
 }
 
 .rubrik {
@@ -21,10 +22,35 @@
 
 /* Navigation */
 .länkar {
-    display: inline-block;
     text-decoration: underline dotted;
+    color: black;
+}
+
+li {
+    display: inline-block;
+}
+
+#kantlinje {
+    border-bottom: 1px solid lightgray;
+    width: 600px;
 }
 
 /* Hundrubrik och bild */
+.hundrubrik {}
+
+.bild {
+    background-image: url(Hund1.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    border: 2px solid grey;
+    border-bottom: 4px solid grey;
+    background-position: center;
+}
+
 
 /* Faktainnehåll */
+
+footer {}
