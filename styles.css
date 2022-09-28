@@ -32,6 +32,10 @@ body {
     margin-right: 10px;
 }
 
+.länkar:hover {
+    color: lightgray;
+}
+
 ol {
     text-align: center;
 }
