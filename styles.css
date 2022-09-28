@@ -1,18 +1,22 @@
+body {
+    margin: auto;
+    width: 600px;
+}
+
 /* Rubrik */
 #rubrikruta {
     width: 600px;
-    height: 200px;
+    height: 150px;
     background-color: beige;
     border-radius: 4px;
 }
 
 .rubrik {
-    color: rgb(140, 79, 79);
+    color: rgb(157, 137, 104);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     /* osäker*/
-    padding-top: 50px;
-    margin: 0;
+    padding-top: 20px;
 }
 
 .style {
@@ -24,6 +28,12 @@
 .länkar {
     text-decoration: underline dotted;
     color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ol {
+    text-align: center;
 }
 
 li {
@@ -33,10 +43,13 @@ li {
 #kantlinje {
     border-bottom: 1px solid lightgray;
     width: 600px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Hundrubrik och bild */
-.hundrubrik {}
+.hundrubrik {
+    text-align: center;
+}
 
 .bild {
     background-image: url(Hund1.jpg);
@@ -48,9 +61,11 @@ li {
     border: 2px solid grey;
     border-bottom: 4px solid grey;
     background-position: center;
+    margin: auto;
 }
 
+/* Slutet */
 
-/* Faktainnehåll */
-
-footer {}
+footer {
+    text-align: center;
+}
